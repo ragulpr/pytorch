@@ -289,6 +289,7 @@ import torch.utils.backcompat
 import torch.onnx
 import torch.jit
 import torch.random
+from ._getlimits import finfo 
 import torch.distributions
 import torch.testing
 import torch.backends.cuda
